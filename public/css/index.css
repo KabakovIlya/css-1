@@ -1,0 +1,140 @@
+:root {
+    background: white;
+}
+
+* {
+    color: black;
+}
+h1 {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+section .box div {
+    background: green;
+}
+
+section .box p {
+    background: red;
+}
+
+.brown {
+    color: white;
+    background: brown;
+}
+
+ul > li {
+    background: red;
+}
+
+button.header-button + span {
+    background: red;
+}
+
+p.susid ~ p {
+    color: white;
+    background: blue;
+}
+
+.salo,
+#bread {
+    background: yellow;
+}
+
+div.first-task li:first-child {
+    color: white;
+}
+
+div.second-task li:first-child {
+    color: yellow;
+}
+
+div.third-task ul:last-of-type li:first-child {
+    background: yellow;
+}
+
+div.four-task li:last-child {
+    background: yellow;
+}
+
+div.five-task ul:last-of-type li:last-child {
+    color: white;
+}
+
+div.only-child-task div:only-child {
+    background: red;
+}
+
+div.seven-task p:first-of-type {
+    background: red;
+}
+
+div.eight-task p:last-of-type {
+    background: red;
+}
+
+div.nine-task p:only-of-type {
+    background: yellow;
+}
+
+div.lesson-three-task-one a[href] {
+    color: white;
+}
+
+ol.lesson-three-task-two li[value] {
+    color: yellow;
+}
+
+ol.lesson-three-task-three li[value="3"] {
+    color: yellow;
+} 
+
+div.lesson-three-task-four button[class~='primary'] {
+    background: blue;
+}
+
+div.lesson-three-task-five button[class|='secondary'] {
+    background: red;
+}
+
+div.lesson-three-task-six li[class^='b'] {
+    color: green;
+    background: white;
+}
+
+div.lesson-three-task-seven li[class*='on'] {
+    color: green;
+    background: white;
+}
+
+div.lesson-three-task-eight span[class$='s'] {
+    color: blue;
+    background: white;
+}
+
+div.lesson-three-task-nine h2::first-letter {
+    color: red;
+}
+
+div.lesson-three-task-ten p::first-line {
+    background: yellow;
+}
+
+div.lesson-three-task-eleven input::placeholder {
+    background: red;
+}
+
+div.lesson-three-task-twelve li::before {
+    content: "➤ ";
+}
+
+div.lesson-three-task-thirteen li::after {
+    content: " ➤";
+}
